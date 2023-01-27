@@ -1,0 +1,34 @@
+{
+	"private": true,
+	"sideEffects": false,
+	"scripts": {
+		"build": "remix build",
+		"dev": "remix dev",
+		"start": "remix-serve build",
+		"typecheck": "tsc"
+	},
+	"dependencies": {
+		"@remix-run/node": "^1.11.1",
+		"@remix-run/react": "^1.11.1",
+		"@remix-run/serve": "^1.11.1",
+		"domain-functions": "^1.5.1",
+		"isbot": "^3.6.5",
+		"react": "^18.2.0",
+		"react-currency-input-field": "^3.6.9",
+		"react-dom": "^18.2.0",
+		"react-hook-form": "^7.42.1",
+		"remix-forms": "^1.5.0",
+		"zod": "^3.20.2"
+	},
+	"devDependencies": {
+		"@remix-run/dev": "^1.11.1",
+		"@remix-run/eslint-config": "^1.11.1",
+		"@types/react": "^18.0.27",
+		"@types/react-dom": "^18.0.10",
+		"eslint": "^8.32.0",
+		"typescript": "^4.9.4"
+	},
+	"engines": {
+		"node": ">=18"
+	}
+}
